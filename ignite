@@ -10,7 +10,7 @@
 set timeout -1
 set server "torch"
 set url "https://login.microsoftonline.com/common/oauth2/deviceauth"
-set browser_auth_wait 5
+set browser_auth_wait 30
 set paste_delay 0.5
 set press_enter_interval 1
 if {[info exists env(LOGIN_VERBOSE)]} {
